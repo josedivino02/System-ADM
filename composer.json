@@ -1,0 +1,19 @@
+{
+    "description": "Estrutura projeto ADM MVC",
+    "authors": [
+        {
+            "name" : "Divino",
+            "email": "josedivinooficial02@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Adm\\": "app/adm",
+            "App\\": "app",
+            "Core\\": "core"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
